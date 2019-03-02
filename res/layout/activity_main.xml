@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:background="#000000"
     android:orientation="vertical"
-    tools:context="me.lancer.www.calculator2.MainActivity$PlaceholderFragment" >
+    tools:context="me.lancer.www.calculator.MainActivity$PlaceholderFragment" >
 
     <LinearLayout
         android:layout_width="fill_parent"

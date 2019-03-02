@@ -1,4 +1,4 @@
-package me.lancer.www.calculator2;
+package me.lancer.www.calculator;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -108,12 +108,12 @@ public class MainActivity extends ActionBarActivity {
 				expView.setText(expression);
 				break;
 			case R.id.multiplication:
-				expression = expression + "¡Á";
+				expression = expression + "ï¿½ï¿½";
 				result = result + "*";
 				expView.setText(expression);
 				break;
 			case R.id.division:
-				expression = expression + "¡Â";
+				expression = expression + "ï¿½ï¿½";
 				result = result + "/";
 				expView.setText(expression);
 				break;
@@ -122,7 +122,7 @@ public class MainActivity extends ActionBarActivity {
 					d = new Calculator(result).getRes();
 					l = "" + d;
 					if (d == -1024 * 1024) {
-						resView.setText("´íÎó");
+						resView.setText("ï¿½ï¿½ï¿½ï¿½");
 						expression = expression + "=";
 						expView.setText(expression);
 						expression = "";
@@ -135,7 +135,7 @@ public class MainActivity extends ActionBarActivity {
 						result = l;
 					}
 				} catch (Exception e) {
-					resView.setText("´íÎó");
+					resView.setText("ï¿½ï¿½ï¿½ï¿½");
 					expression = expression + "=";
 					expView.setText(expression);
 					expression = "";

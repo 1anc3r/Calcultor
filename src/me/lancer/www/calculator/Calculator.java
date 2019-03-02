@@ -1,4 +1,4 @@
-package me.lancer.www.calculator2;
+package me.lancer.www.calculator;
 
 import java.util.HashMap;
 import java.util.Stack;
